@@ -5,12 +5,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.security.SecureRandom;
 import java.time.Duration;
+import java.time.LocalDateTime;
 import java.util.stream.Stream;
 
 @RestController("/service")
@@ -38,11 +40,16 @@ public class WorkerWsRestController {
                 .delayElements(Duration.ofMillis(100));
     }
 
-
     @GetMapping("/flux/randomNumber")
     public ResponseEntity<Flux<Double>> getRandomNumberAsFlux() {
         return ResponseEntity.ok()
                 .contentType(MediaType.APPLICATION_JSON)
                 .body(Flux.fromStream(Stream.generate(() -> new SecureRandom().nextDouble()).limit(500)));
+    }
+
+    @GetMapping(value = "/functional/flux/time", produces = MediaType.APPLICATION_STREAM_JSON_VALUE)
+    public Flux<LocalDateTime> getTimeFunctionally() {
+        return Flux.fromStream(Stream.generate(LocalDateTime::now))
+                .delayElements(Duration.ofMillis(250));
     }
 }

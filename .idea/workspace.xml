@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f26e273-83ab-4493-a6cc-278f3b88f0a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java" afterDir="false" />
     </list>
@@ -13,6 +11,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="worker-ws" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -31,11 +32,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            <state relative-caret-position="543">
+              <caret line="50" column="54" lean-forward="true" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.6.RELEASE/reactor-core-3.2.6.RELEASE-sources.jar!/reactor/core/publisher/SynchronousSink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -53,7 +63,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.6.RELEASE/reactor-core-3.2.6.RELEASE-sources.jar!/reactor/core/publisher/Flux.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="672">
-              <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+              <caret line="1025" column="30" selection-start-line="1025" selection-start-column="30" selection-end-line="1025" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -144,6 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,8 +221,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,6 +274,14 @@
       <option name="presentableId" value="Default" />
       <updated>1552412497275</updated>
     </task>
+    <task id="LOCAL-00001" summary="delay flux">
+      <created>1552732935746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552732935746</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -279,12 +297,12 @@
     <frame x="18" y="37" width="2532" height="1324" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5029308" visible="true" weight="0.21278317" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5029308" visible="true" weight="0.21440129" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.49706918" side_tool="true" weight="0.2208" />
+      <window_info id="Favorites" order="5" sideWeight="0.49706918" side_tool="true" weight="0.22046925" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32873166" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49838188" visible="true" weight="0.32864675" />
@@ -294,7 +312,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49878642" weight="0.25483304" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49271846" weight="0.23286468" />
       <window_info anchor="bottom" x="178" y="278" width="2087" height="843" id="Version Control" order="8" sideWeight="0.4992" type="FLOATING" weight="0.29508197" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50161815" side_tool="true" visible="true" weight="0.32864675" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50161815" side_tool="true" weight="0.32864675" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919093" weight="0.24077329" />
       <window_info active="true" anchor="right" x="1889" y="645" width="461" height="467" id="Maven Projects" order="0" type="FLOATING" visible="true" weight="0.1956" />
       <window_info anchor="right" id="Structure" order="1" sideWeight="0.4841735" side_tool="true" visible="true" weight="0.18972492" />
@@ -310,18 +328,22 @@
       <window_info anchor="right" x="1615" y="389" width="892" height="711" id="Maven" order="11" type="FLOATING" weight="0.32955083" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delay flux" />
+    <option name="LAST_COMMIT_MESSAGE" value="delay flux" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java</url>
-          <line>26</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java</url>
-          <line>36</line>
+          <line>38</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -370,13 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.6.RELEASE/reactor-core-3.2.6.RELEASE-sources.jar!/reactor/core/publisher/Flux.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -405,10 +420,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.6.RELEASE/reactor-core-3.2.6.RELEASE-sources.jar!/reactor/core/publisher/Flux.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="1025" column="30" selection-start-line="1025" selection-start-column="30" selection-end-line="1025" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.6.RELEASE/reactor-core-3.2.6.RELEASE-sources.jar!/reactor/core/publisher/SynchronousSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="543">
+          <caret line="50" column="54" lean-forward="true" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -492,6 +521,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
