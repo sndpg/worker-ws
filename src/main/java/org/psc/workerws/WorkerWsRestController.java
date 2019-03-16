@@ -10,6 +10,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.security.SecureRandom;
+import java.time.Duration;
 import java.util.stream.Stream;
 
 @RestController("/service")
@@ -33,7 +34,8 @@ public class WorkerWsRestController {
 
     @GetMapping(value = "/functional/flux/randomNumber", produces = MediaType.APPLICATION_STREAM_JSON_VALUE)
     public Flux<Double> getRandomNumberFunctionallyAsFlux() {
-        return Flux.fromStream(Stream.generate(() -> new SecureRandom().nextDouble()));
+        return Flux.fromStream(Stream.generate(() -> new SecureRandom().nextDouble()))
+                .delayElements(Duration.ofMillis(100));
     }
 
 
