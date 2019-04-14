@@ -2,7 +2,6 @@ package org.psc.workerws.calculators;
 
 import lombok.extern.slf4j.Slf4j;
 import org.psc.workerws.calculators.domain.DefaultCalculatorSpecification;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
@@ -13,8 +12,9 @@ import java.security.SecureRandom;
 @Component
 public class DefaultCalculator {
 
-    @Autowired
-    private DefaultCalculatorSpecification specification;
+    private final DefaultCalculatorSpecification specification;
+
+    public DefaultCalculator(DefaultCalculatorSpecification specification) {this.specification = specification;}
 
     public BigDecimal calculate(String id, BigDecimal startValue, BigDecimal modifier) throws NoSuchAlgorithmException {
 

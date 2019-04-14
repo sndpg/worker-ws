@@ -22,3 +22,12 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 .idea/workspace.xml
+.idea/workspace.xml
+.idea/worker-ws.iml
+.idea/misc.xml
+.idea/kotlinc.xml
+.idea/dataSources/4dbbf983-e97c-42ca-a2f4-87c01d5a1a75/storage_v2/_src_/database/WORKERDB.fGjBMA/schema/NEW_SCHEMA.QMk85Q.meta
+.idea/dataSources/4dbbf983-e97c-42ca-a2f4-87c01d5a1a75/storage_v2/_src_/database/WORKERDB.fGjBMA.meta
+.idea/dataSources/4dbbf983-e97c-42ca-a2f4-87c01d5a1a75.xml
+.idea/worker-ws.iml
+.idea/misc.xml

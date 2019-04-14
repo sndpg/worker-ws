@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f26e273-83ab-4493-a6cc-278f3b88f0a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/domain/DefaultCalculatorSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/domain/SimpleCalculatorSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/worker-ws.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-h2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +16,23 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="worker-ws" />
@@ -23,20 +42,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+            <state relative-caret-position="80">
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1603#1604#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/domain/SimpleCalculatorSpecification.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="80">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,11 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="48">
+              <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -60,46 +78,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/domain/DefaultCalculatorSpecification.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Supplier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.6.RELEASE/reactor-core-3.2.6.RELEASE-sources.jar!/reactor/core/publisher/Flux.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15152">
-              <caret line="1025" column="30" selection-start-line="1025" selection-start-column="30" selection-end-line="1025" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/psc/workerws/WorkerWsApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -114,10 +96,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/security/SecureRandom.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-h2.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1888">
-              <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+            <state relative-caret-position="208">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/domain/SimpleCalculatorSpecification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,6 +132,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Aspect" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -139,7 +144,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/RestController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet" />
         <option value="$PROJECT_DIR$/src/test/java/org/psc/workerws/WorkerWsRestControllerTest.java" />
@@ -147,16 +151,25 @@
         <option value="$PROJECT_DIR$/src/test/java/org/psc/workerws/org/psc/workerws/generators/UuidGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/generators/UuidGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculatorSpecification.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/domain/DefaultCalculatorSpecification.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/domain/SimpleCalculatorSpecification.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/domain/DefaultCalculatorSpecification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/AspectR.aj" />
+        <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/ggg.ts" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-h2.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="worker-ws" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -170,14 +183,9 @@
       <select />
     </treeState>
   </component>
-  <component name="NamedScopeManager">
-    <order>
-      <scope name="Unnamed" />
-    </order>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
-    <option name="y" value="37" />
+    <option name="x" value="8" />
+    <option name="y" value="33" />
     <option name="width" value="2532" />
     <option name="height" value="1324" />
   </component>
@@ -242,14 +250,6 @@
               <item name="worker-ws" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="worker-ws" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worker-ws" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,15 +270,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553625453252" />
+    <property name="DatabaseDriversLRU" value="h2" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553717185777" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../worker-client" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mimir-service" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -300,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WorkerWsApplication">
     <configuration name="WorkerWsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.psc.workerws.WorkerWsApplication" />
       <module name="worker-ws" />
@@ -314,11 +324,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkerWsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="worker-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.psc.workerws.WorkerWsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WorkerWsApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -330,6 +350,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552412497275</updated>
+      <workItem from="1554226862571" duration="600000" />
+      <workItem from="1554310285153" duration="915000" />
+      <workItem from="1554314279930" duration="1387000" />
+      <workItem from="1554540698495" duration="1976000" />
+      <workItem from="1554628486236" duration="24000" />
+      <workItem from="1554629209290" duration="134000" />
+      <workItem from="1554835756343" duration="104000" />
+      <workItem from="1554835882072" duration="389000" />
+      <workItem from="1555000041427" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="delay flux">
       <created>1552732935746</created>
@@ -366,8 +395,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553442687503</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ScopedProxy on prototypes... how they don't work">
+      <created>1553628067279</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553628067279</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,60 +418,66 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="37" width="2532" height="1324" extended-state="0" />
+    <frame x="8" y="33" width="2532" height="1324" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5029308" visible="true" weight="0.23139158" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993565" visible="true" weight="0.26375404" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.49706918" side_tool="true" weight="0.22046925" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32873166" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838188" weight="0.32864675" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959546" visible="true" weight="0.3989455" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49878642" weight="0.25483304" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49271846" weight="0.23286468" />
-      <window_info active="true" anchor="bottom" x="178" y="251" width="2087" height="870" id="Version Control" order="8" sideWeight="0.4992" type="FLOATING" visible="true" weight="0.29508197" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50161815" side_tool="true" weight="0.32864675" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919093" weight="0.24077329" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32952547" />
+      <window_info id="Favorites" order="5" sideWeight="0.49824253" side_tool="true" weight="0.23745954" />
+      <window_info id="Web" order="6" sideWeight="0.5006435" side_tool="true" weight="0.24555016" />
+      <window_info anchor="bottom" id="SQL Generator" order="0" sideWeight="0.49878642" visible="true" weight="0.32952547" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32864675" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4975728" weight="0.33128294" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49959546" weight="0.3989455" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49878642" weight="0.25483304" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49514562" weight="0.23286468" />
+      <window_info anchor="bottom" x="385" y="358" width="1965" height="789" id="Version Control" order="9" sideWeight="0.4992" type="FLOATING" weight="0.29508197" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012136" side_tool="true" visible="true" weight="0.32952547" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49919093" weight="0.24077329" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32952547" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3172232" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32952547" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="17" weight="0.32952547" />
+      <window_info anchor="bottom" id="Database Console" order="18" sideWeight="0.49838188" weight="0.32952547" />
       <window_info active="true" anchor="right" x="1889" y="645" width="461" height="467" id="Maven Projects" order="0" type="FLOATING" visible="true" weight="0.1956" />
-      <window_info anchor="right" id="Structure" order="1" sideWeight="0.4841735" side_tool="true" visible="true" weight="0.18972492" />
-      <window_info anchor="right" x="152" y="148" width="1792" height="800" id="Byte Code Viewer" order="2" type="FLOATING" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="4" show_stripe_button="false" weight="0.2496" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32971016" />
-      <window_info anchor="right" x="1615" y="389" width="892" height="711" id="Maven" order="11" type="FLOATING" weight="0.32955083" />
+      <window_info anchor="right" x="152" y="148" width="1792" height="800" id="Byte Code Viewer" order="1" type="FLOATING" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" show_stripe_button="false" weight="0.2496" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32971016" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.4841735" weight="0.18972492" />
+      <window_info anchor="right" x="1688" y="327" width="819" height="773" id="Maven" order="11" type="FLOATING" weight="0.32955083" />
+      <window_info anchor="right" id="Database" order="12" weight="0.27953073" />
+      <window_info anchor="right" id="Bean Validation" order="13" weight="0.20873787" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delay flux" />
-    <option name="LAST_COMMIT_MESSAGE" value="delay flux" />
+    <MESSAGE value="ScopedProxy on prototypes... how they don't work" />
+    <option name="LAST_COMMIT_MESSAGE" value="ScopedProxy on prototypes... how they don't work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java</url>
-          <line>44</line>
+          <line>45</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java</url>
-          <line>54</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java</url>
@@ -445,13 +490,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/1.5.8.RELEASE/spring-boot-devtools-1.5.8.RELEASE.pom" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Publisher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -463,17 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -516,20 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.6.RELEASE/reactor-core-3.2.6.RELEASE-sources.jar!/reactor/core/publisher/Flux.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15152">
-          <caret line="1025" column="30" selection-start-line="1025" selection-start-column="30" selection-end-line="1025" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -544,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/security/SecureRandom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1888">
@@ -558,20 +564,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/domain/SimpleCalculatorSpecification.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.6.RELEASE/reactor-core-3.2.6.RELEASE-sources.jar!/reactor/core/publisher/Flux.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1045">
+          <caret line="1025" column="30" selection-start-line="1025" selection-start-column="30" selection-end-line="1025" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final-sources.jar!/javax/validation/ConstraintValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="56" column="78" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="56" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.14.Final/hibernate-validator-6.0.14.Final-sources.jar!/org/hibernate/validator/internal/constraintvalidators/AbstractEmailValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="34" column="88" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.14.Final/hibernate-validator-6.0.14.Final-sources.jar!/org/hibernate/validator/internal/constraintvalidators/hv/EmailValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.14.Final/hibernate-validator-6.0.14.Final-sources.jar!/org/hibernate/validator/internal/constraintvalidators/bv/EmailValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/AspectR.aj" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/ggg.ts" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53333459-409d-4af5-9467-a13fbc0fcd32/console.sql" />
+    <entry file="das://4dbbf983-e97c-42ca-a2f4-87c01d5a1a75/database/WORKERDB/schema/INFORMATION_SCHEMA/table/TABLES" />
+    <entry file="uml://JAVA/org.psc.workerws.calculators.domain.SimpleCalculatorSpecification">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.psc.workerws.calculators.domain.SimpleCalculatorSpecification</OriginalElement>
+          <nodes>
+            <node x="" y="">org.psc.workerws.calculators.domain.SimpleCalculatorSpecification</node>
+            <node x="" y="">lombok.Data</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="532.0" y="51.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4dbbf983-e97c-42ca-a2f4-87c01d5a1a75/database/WORKERDB/schema/INFORMATION_SCHEMA/table/USERS" />
+    <entry file="das://4dbbf983-e97c-42ca-a2f4-87c01d5a1a75/database/WORKERDB/schema/INFORMATION_SCHEMA/table/VIEWS" />
+    <entry file="das://4dbbf983-e97c-42ca-a2f4-87c01d5a1a75/database/WORKERDB/schema/INFORMATION_SCHEMA/table/SCHEMATA" />
+    <entry file="das://4dbbf983-e97c-42ca-a2f4-87c01d5a1a75/database/WORKERDB/schema/INFORMATION_SCHEMA/table/SEQUENCES" />
+    <entry file="uml://DATABASE/4dbbf983-e97c-42ca-a2f4-87c01d5a1a75.SCHEMA:WORKERDB.PUBLIC">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>4dbbf983-e97c-42ca-a2f4-87c01d5a1a75.SCHEMA:WORKERDB.PUBLIC</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1236.0" y="537.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4dbbf983-e97c-42ca-a2f4-87c01d5a1a75/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.psc.workerws.calculators.DefaultCalculator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.psc.workerws.calculators.DefaultCalculator</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.stereotype.Component</node>
+            <node x="" y="">lombok.extern.slf4j.Slf4j</node>
+            <node x="" y="">org.psc.workerws.calculators.DefaultCalculator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="105.0" y="51.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        <state relative-caret-position="80">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/WorkerWsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -581,7 +713,38 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/domain/DefaultCalculatorSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-h2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/domain/SimpleCalculatorSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -590,11 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="48">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -650,7 +810,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>worker-ws</last-edited>
+          <last-edited>Web|worker-ws</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -694,9 +854,6 @@
               </list>
             </option>
           </splitter-proportions>
-          <order>
-            <scope name="Unnamed" />
-          </order>
         </settings>
       </state>
     </states>

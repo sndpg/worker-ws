@@ -1,10 +1,8 @@
 package org.psc.workerws;
 
-
 import org.psc.workerws.calculators.DefaultCalculator;
 import org.psc.workerws.calculators.domain.SimpleCalculatorSpecification;
 import org.psc.workerws.generators.UuidGenerator;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -28,15 +26,17 @@ import java.util.stream.Stream;
 @RestController("/service")
 public class WorkerWsRestController {
 
-    @Autowired
-    private UuidGenerator uuidGenerator;
+    private final UuidGenerator uuidGenerator;
 
-    @Autowired
-    private DefaultCalculator defaultCalculator;
+    private final DefaultCalculator defaultCalculator;
+
+    public WorkerWsRestController(UuidGenerator uuidGenerator, DefaultCalculator defaultCalculator) {
+        this.uuidGenerator = uuidGenerator;
+        this.defaultCalculator = defaultCalculator;
+    }
 
     @GetMapping("/status")
     public ResponseEntity<String> getStatus() {
-
         return new ResponseEntity<>("{\"status\":\"OK\"}", HttpStatus.OK);
     }
 
@@ -77,7 +77,7 @@ public class WorkerWsRestController {
 
     @PostMapping(value = "/defaultCalculation", produces = MediaType.APPLICATION_JSON_VALUE)
     public Map<String, BigDecimal> uselessCalculate(@RequestBody SimpleCalculatorSpecification specification) throws NoSuchAlgorithmException {
-        var id = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd-hh:mm:ss.nnnnnn"));
+        var id = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd-hh:mm:ss.nnnnnnnnn"));
         var result = defaultCalculator.calculate(id, specification.getStartValue(), specification.getModifierValue());
         return Map.of(id, result);
     }
