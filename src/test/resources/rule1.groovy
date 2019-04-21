@@ -1,1 +1,0 @@
-return param1 == "hello";

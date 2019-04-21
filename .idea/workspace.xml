@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f26e273-83ab-4493-a6cc-278f3b88f0a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/rule1.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/psc/workerws/rules/RuleEvaluatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/rule1.groovy" afterDir="false" />
+    <list default="true" id="1f26e273-83ab-4493-a6cc-278f3b88f0a1" name="Default Changelist" comment="misc groovy testing">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Sandro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/rule2.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rule1.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rule1.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/psc/workerws/rules/RuleEvaluatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/psc/workerws/rules/RuleEvaluatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/rule1.groovy" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="563">
+              <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,40 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar!/groovy/lang/Script.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/math/BigDecimal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/math/RoundingMode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar!/groovy/lang/Binding.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="401">
+              <caret line="62" column="70" selection-start-line="62" selection-start-column="70" selection-end-line="62" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -92,26 +63,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/psc/workerws/rules/RuleEvaluatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="256">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/psc/workerws/WorkerWsApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/rule2.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="48">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/psc/workerws/WorkerWsRestControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="540">
+              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,17 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/rule1.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/scripting/groovy/GroovyScriptFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+            <state relative-caret-position="16">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -169,12 +134,20 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/rule1.groovy" />
         <option value="$PROJECT_DIR$/src/test/java/rules/RuleEvaluatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/nym" />
-        <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/rule1.groovy" />
         <option value="$PROJECT_DIR$/src/test/java/org/psc/workerws/rules/RuleEvaluatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/rule2.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -208,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,21 +286,19 @@
             <path>
               <item name="worker-ws" type="b2602c69:ProjectViewProjectNode" />
               <item name="worker-ws" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="worker-ws" type="b2602c69:ProjectViewProjectNode" />
               <item name="worker-ws" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,25 +314,26 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.psc.workerws" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="rules" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rules" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\SoftwareDevelopment\workspaces\java\worker-ws\src\main\resources" />
       <recent name="F:\SoftwareDevelopment\workspaces\java\worker-ws\src\test\resources" />
     </key>
   </component>
@@ -376,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RuleEvaluatorTest.testEvaluate (1)">
+  <component name="RunManager" selected="JUnit.RuleEvaluatorTest.testEvaluate2">
     <configuration name="WorkerWsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.psc.workerws.WorkerWsApplication" />
       <module name="worker-ws" />
@@ -386,6 +359,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuleEvaluatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="worker-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.psc.workerws.rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.psc.workerws.rules" />
+      <option name="MAIN_CLASS_NAME" value="org.psc.workerws.rules.RuleEvaluatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -422,6 +410,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RuleEvaluatorTest.testEvaluate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="worker-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.psc.workerws.rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.psc.workerws.rules" />
+      <option name="MAIN_CLASS_NAME" value="org.psc.workerws.rules.RuleEvaluatorTest" />
+      <option name="METHOD_NAME" value="testEvaluate2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorkerWsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="worker-ws" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.psc.workerws.WorkerWsApplication" />
@@ -431,6 +435,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RuleEvaluatorTest.testEvaluate2" />
+        <item itemvalue="JUnit.RuleEvaluatorTest" />
         <item itemvalue="JUnit.RuleEvaluatorTest.testEvaluate (1)" />
         <item itemvalue="JUnit.RuleEvaluatorTest.testEvaluate" />
         <item itemvalue="Application.WorkerWsApplication" />
@@ -462,7 +468,10 @@
       <workItem from="1555618391562" duration="41000" />
       <workItem from="1555618509206" duration="49000" />
       <workItem from="1555704437809" duration="4159000" />
-      <workItem from="1555747774228" duration="1764000" />
+      <workItem from="1555747774228" duration="3053000" />
+      <workItem from="1555753319052" duration="1939000" />
+      <workItem from="1555770760018" duration="2004000" />
+      <workItem from="1555830994149" duration="1091000" />
     </task>
     <task id="LOCAL-00001" summary="delay flux">
       <created>1552732935746</created>
@@ -506,43 +515,50 @@
       <option name="project" value="LOCAL" />
       <updated>1553628067279</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="misc groovy testing">
+      <created>1555750325187</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555750325187</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RuleEvaluatorTest_testEvaluate_(1) - 2019.04.19 at 23h 06m 29s.xml">
-      <configuration name="RuleEvaluatorTest.testEvaluate (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RuleEvaluatorTest_testEvaluate_(1) - 2019.04.19 at 23h 08m 07s.xml">
-      <configuration name="RuleEvaluatorTest.testEvaluate (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RuleEvaluatorTest_testEvaluate_(1) - 2019.04.19 at 23h 09m 08s.xml">
-      <configuration name="RuleEvaluatorTest.testEvaluate (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RuleEvaluatorTest_testEvaluate_(1) - 2019.04.19 at 23h 09m 22s.xml">
-      <configuration name="RuleEvaluatorTest.testEvaluate (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RuleEvaluatorTest_testEvaluate_(1) - 2019.04.19 at 23h 10m 07s.xml">
-      <configuration name="RuleEvaluatorTest.testEvaluate (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RuleEvaluatorTest_testEvaluate_(1) - 2019.04.19 at 23h 11m 17s.xml">
-      <configuration name="RuleEvaluatorTest.testEvaluate (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RuleEvaluatorTest_testEvaluate_(1) - 2019.04.19 at 23h 11m 38s.xml">
-      <configuration name="RuleEvaluatorTest.testEvaluate (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RuleEvaluatorTest_testEvaluate_(1) - 2019.04.19 at 23h 14m 04s.xml">
-      <configuration name="RuleEvaluatorTest.testEvaluate (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RuleEvaluatorTest_testEvaluate_(1) - 2019.04.19 at 23h 14m 38s.xml">
       <configuration name="RuleEvaluatorTest.testEvaluate (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RuleEvaluatorTest_testEvaluate_(1) - 2019.04.19 at 23h 15m 45s.xml">
       <configuration name="RuleEvaluatorTest.testEvaluate (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RuleEvaluatorTest - 2019.04.20 at 13h 44m 31s.xml">
+      <configuration name="RuleEvaluatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuleEvaluatorTest - 2019.04.20 at 13h 45m 05s.xml">
+      <configuration name="RuleEvaluatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuleEvaluatorTest - 2019.04.20 at 13h 45m 57s.xml">
+      <configuration name="RuleEvaluatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuleEvaluatorTest - 2019.04.20 at 13h 46m 30s.xml">
+      <configuration name="RuleEvaluatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuleEvaluatorTest - 2019.04.20 at 13h 47m 40s.xml">
+      <configuration name="RuleEvaluatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuleEvaluatorTest_testEvaluate2 - 2019.04.21 at 09h 31m 59s.xml">
+      <configuration name="RuleEvaluatorTest.testEvaluate2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuleEvaluatorTest_testEvaluate2 - 2019.04.21 at 09h 32m 20s.xml">
+      <configuration name="RuleEvaluatorTest.testEvaluate2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuleEvaluatorTest_testEvaluate2 - 2019.04.21 at 09h 33m 06s.xml">
+      <configuration name="RuleEvaluatorTest.testEvaluate2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11588000" />
+    <option name="totallyTimeSpent" value="17911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,8 +571,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="33" width="2532" height="1324" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993565" visible="true" weight="0.27184466" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993565" visible="true" weight="0.2787217" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -566,15 +583,15 @@
       <window_info anchor="bottom" id="SQL Generator" order="0" sideWeight="0.49878642" visible="true" weight="0.32952547" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32864675" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49635923" weight="0.33128294" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4975728" weight="0.3989455" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49514562" visible="true" weight="0.33128294" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49676377" weight="0.3989455" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49878642" weight="0.25483304" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4947411" weight="0.23286468" />
       <window_info anchor="bottom" x="385" y="358" width="1965" height="789" id="Version Control" order="9" sideWeight="0.4992" type="FLOATING" weight="0.29508197" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50242716" side_tool="true" visible="true" weight="0.25307557" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49797735" weight="0.24077329" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5048544" side_tool="true" visible="true" weight="0.33128294" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4975728" weight="0.24077329" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32952547" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3172232" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32952547" />
@@ -604,7 +621,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delay flux" />
     <MESSAGE value="ScopedProxy on prototypes... how they don't work" />
-    <option name="LAST_COMMIT_MESSAGE" value="ScopedProxy on prototypes... how they don't work" />
+    <MESSAGE value="misc groovy testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="misc groovy testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -623,58 +641,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java</url>
-          <line>26</line>
+          <line>57</line>
           <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/psc/workerws/rules/RuleEvaluatorTest.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/psc/workerws/rules/RuleEvaluatorTest.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/Scope.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/scopes/Unnamed.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/generators/UuidGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/annotation/Scope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/security/SecureRandom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1888">
@@ -902,13 +876,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/nym" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/rule1.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/rule1.groovy" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2576">
@@ -923,38 +891,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/psc/workerws/rules/RuleEvaluatorTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/math/RoundingMode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="110">
+          <caret line="87" column="10" lean-forward="true" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/psc/workerws/WorkerWsApplicationTests.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/math/BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/psc/workerws/WorkerWsRestControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/rule1.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/scripting/groovy/GroovyScriptFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+        <state relative-caret-position="432">
+          <caret line="56" column="66" lean-forward="true" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -965,10 +912,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/psc/workerws/WorkerWsApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="160">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/psc/workerws/WorkerWsRestControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/scripting/groovy/GroovyScriptFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3755">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/generators/UuidGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -977,25 +945,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/calculators/DefaultCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="540">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/math/BigDecimal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/rule1.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="53" column="67" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+        <state relative-caret-position="16">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/math/RoundingMode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/rule2.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+        <state relative-caret-position="48">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/psc/workerws/rules/RuleEvaluatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar!/groovy/lang/MetaObjectProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar!/groovy/lang/GroovyObjectSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar!/groovy/lang/Script.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="62" column="70" selection-start-line="62" selection-start-column="70" selection-end-line="62" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
