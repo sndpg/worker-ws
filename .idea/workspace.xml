@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f26e273-83ab-4493-a6cc-278f3b88f0a1" name="Default Changelist" comment="misc groovy testing">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1f26e273-83ab-4493-a6cc-278f3b88f0a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/psc/workerws/rules/RuleEvaluatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/psc/workerws/rules/RuleEvaluatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,20 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+            <state relative-caret-position="928">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -500,7 +488,7 @@
       <workItem from="1555961764242" duration="86000" />
       <workItem from="1556219249187" duration="46000" />
       <workItem from="1556219316335" duration="94000" />
-      <workItem from="1556360952078" duration="2812000" />
+      <workItem from="1556360952078" duration="3245000" />
     </task>
     <task id="LOCAL-00001" summary="delay flux">
       <created>1552732935746</created>
@@ -565,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556362013206</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="misc groovy testing">
+      <created>1556363811105</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556363811105</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -601,7 +596,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23814000" />
+    <option name="totallyTimeSpent" value="24247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,7 +621,7 @@
       <window_info anchor="bottom" id="SQL Generator" order="0" sideWeight="0.49878642" visible="true" weight="0.32952547" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32864675" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49433658" visible="true" weight="0.33128294" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49433658" weight="0.33128294" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49676377" weight="0.3989455" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -976,17 +971,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+        <state relative-caret-position="240">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/psc/workerws/rules/RuleEvaluator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        <state relative-caret-position="928">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
         </state>
       </provider>
     </entry>
