@@ -60,6 +60,36 @@ public class RuleEvaluator {
         return result.equals("got: hello and bye");
     }
 
+    public boolean evaluate3() throws IOException {
+        var scriptWriter = new StringWriter();
+        IOUtils.copy(rule1Resource.getInputStream(), scriptWriter, StandardCharsets.UTF_8);
+        var scriptContent = scriptWriter.toString();
+
+        var binding = new Binding();
+        binding.setVariable("param1", "hello");
+        binding.setProperty("printParam", "printMe");
+        var shell = new GroovyShell(binding);
+        var script = shell.parse(scriptContent);
+        Boolean evalResult = (Boolean) script.evaluate(scriptContent);
+        log.info(evalResult.toString());
+        return evalResult;
+    }
+
+    public boolean evaluate4() throws IOException {
+        var scriptWriter = new StringWriter();
+        IOUtils.copy(rule2Resource.getInputStream(), scriptWriter, StandardCharsets.UTF_8);
+        var scriptContent = scriptWriter.toString();
+
+        var binding = new Binding();
+        binding.setVariable("param1", "hello");
+        var shell = new GroovyShell(binding);
+        var script = shell.parse(scriptContent);
+
+        String result = (String) script.invokeMethod("getMe", new String[]{"hello"});
+        log.info(result);
+        return result.equals("got: hello");
+    }
+
     public boolean evaluateSpring() throws IOException {
 
         GroovyScriptFactory scriptFactory = new GroovyScriptFactory("classpath");

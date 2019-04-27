@@ -24,5 +24,15 @@ public class RuleEvaluatorTest {
     public void testEvaluate2() throws IOException {
         Assertions.assertTrue(ruleEvaluator.evaluate2());
     }
+
+    @Test
+    public void testEvaluate3() throws IOException {
+        Assertions.assertTrue(ruleEvaluator.evaluate3());
+    }
+
+    @Test
+    public void testEvaluate4() throws IOException {
+        Assertions.assertTrue(ruleEvaluator.evaluate4());
+    }
 }
 
