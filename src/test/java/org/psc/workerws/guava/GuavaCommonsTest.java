@@ -21,12 +21,12 @@ class GuavaCommonsTest {
     }
 
     @Test
-    void testGenerateMutliSetException() {
+    void testGenerateMultiSetException() {
         assertThrows(NullPointerException.class, () -> guavaCommons.generateMultiSet(null));
     }
 
     @Test
-    void testGenerateMutliSet() {
+    void testGenerateMultiSet() {
         var result = guavaCommons.generateMultiSet("a", "b", "c", "a", "a");
         assertThat(result.size(), is(5));
     }
