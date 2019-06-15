@@ -5,5 +5,6 @@ public enum SampleOption {
     REQUIRED,
     UNSPECIFIED,
     VETOABLE,
-    STICKY
+    STICKY,
+    INVALID
 }
