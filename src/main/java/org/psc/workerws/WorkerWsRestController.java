@@ -8,9 +8,7 @@ import org.psc.workerws.files.FilesLogic;
 import org.psc.workerws.generators.UuidGenerator;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -20,6 +18,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.math.BigDecimal;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
@@ -92,8 +91,16 @@ public class WorkerWsRestController {
         DeferredResult<ResponseEntity<Resource>> result = new DeferredResult<>();
         var zipFile = filesLogic.createRandomZipFile();
         var zipResource = new FileSystemResource(zipFile);
+
+        var responseHeaders = new HttpHeaders();
+        responseHeaders.setContentDisposition(
+                ContentDisposition.builder("attachment").filename("randomEntries.zip", StandardCharsets.UTF_8).build());
+
         result.onCompletion(() -> Try.run(() -> Files.deleteIfExists(zipFile)));
-        result.setResult(ResponseEntity.ok().contentType(MediaType.APPLICATION_OCTET_STREAM).body(zipResource));
+        result.setResult(ResponseEntity.ok()
+                .contentType(MediaType.APPLICATION_OCTET_STREAM)
+                .headers(responseHeaders)
+                .body(zipResource));
         return result;
     }
 
