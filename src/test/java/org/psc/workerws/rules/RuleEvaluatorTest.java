@@ -32,5 +32,10 @@ class RuleEvaluatorTest {
     void testEvaluate4() throws IOException {
         Assertions.assertTrue(ruleEvaluator.evaluate4());
     }
+
+    @Test
+    void testEvaluate5() throws IOException {
+        Assertions.assertTrue(ruleEvaluator.evaluate5());
+    }
 }
 

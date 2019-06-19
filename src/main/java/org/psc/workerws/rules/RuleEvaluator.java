@@ -23,6 +23,9 @@ public class RuleEvaluator {
     @Value("classpath:rule2.groovy")
     private Resource rule2Resource;
 
+    @Value("classpath:rule3.groovy")
+    private Resource rule3Resource;
+
     public boolean evaluate() throws IOException {
         var scriptWriter = new StringWriter();
         IOUtils.copy(rule1Resource.getInputStream(), scriptWriter, StandardCharsets.UTF_8);
@@ -88,6 +91,34 @@ public class RuleEvaluator {
         String result = (String) script.invokeMethod("getMe", new String[]{"hello"});
         log.info(result);
         return result.equals("got: hello");
+    }
+
+    public boolean evaluate5() throws IOException {
+        var scriptWriter = new StringWriter();
+        IOUtils.copy(rule3Resource.getInputStream(), scriptWriter, StandardCharsets.UTF_8);
+        var scriptContent = scriptWriter.toString();
+
+        var binding = new Binding();
+        var shell = new GroovyShell(binding);
+        var script = shell.parse(scriptContent);
+
+        var run1Binding = new Binding();
+        run1Binding.setVariable("param1", "ney");
+        run1Binding.setVariable("printParam", "PTRIINT:MEE!!");
+        script.setBinding(run1Binding);
+        String result = (String) script.run();
+        log.info(result);
+        var firstRun = result.equals("ney");
+
+        var run2Binding = new Binding();
+        run2Binding.setVariable("param1", "OK");
+        run2Binding.setVariable("printParam", "PTRIINT:MEE!! again");
+        script.setBinding(run2Binding);
+        result = (String) script.run();
+        log.info(result);
+        var secondRun = result.equals("OK");
+        
+        return firstRun && secondRun;
     }
 
     public boolean evaluateSpring() throws IOException {
