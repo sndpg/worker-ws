@@ -14,7 +14,9 @@ public class DefaultCalculator {
 
     private final DefaultCalculatorSpecification specification;
 
-    public DefaultCalculator(DefaultCalculatorSpecification specification) {this.specification = specification;}
+    public DefaultCalculator(DefaultCalculatorSpecification specification) {
+        this.specification = specification;
+    }
 
     public BigDecimal calculate(String id, BigDecimal startValue, BigDecimal modifier) throws NoSuchAlgorithmException {
 
