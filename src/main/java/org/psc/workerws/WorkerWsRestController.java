@@ -4,15 +4,14 @@ import io.vavr.control.Try;
 import lombok.RequiredArgsConstructor;
 import org.psc.workerws.calculators.DefaultCalculator;
 import org.psc.workerws.calculators.domain.SimpleCalculatorSpecification;
+import org.psc.workerws.documents.Person;
+import org.psc.workerws.documents.PersonRepository;
 import org.psc.workerws.files.FilesLogic;
 import org.psc.workerws.generators.UuidGenerator;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.*;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.request.async.DeferredResult;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -25,12 +24,15 @@ import java.security.SecureRandom;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @RequiredArgsConstructor
-@RestController("/service")
+@RestController
+@RequestMapping(path = {"/service", "/"})
 public class WorkerWsRestController {
 
     private final UuidGenerator uuidGenerator;
@@ -38,6 +40,8 @@ public class WorkerWsRestController {
     private final DefaultCalculator defaultCalculator;
 
     private final FilesLogic filesLogic;
+
+    private final PersonRepository personRepository;
 
     @GetMapping("/status")
     public ResponseEntity<String> getStatus() {
@@ -102,6 +106,11 @@ public class WorkerWsRestController {
                 .headers(responseHeaders)
                 .body(zipResource));
         return result;
+    }
+
+    @GetMapping(value = "/persons", produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<Person> getAllPersons() {
+        return personRepository.getAllPersons().collect(Collectors.toList());
     }
 
 }
