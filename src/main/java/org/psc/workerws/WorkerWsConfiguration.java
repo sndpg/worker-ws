@@ -25,10 +25,9 @@ public class WorkerWsConfiguration {
         return bean;
     }
 
-
     @EventListener(ApplicationReadyEvent.class)
-    public void applicationReady(){
-        customProperties.forEach((k,v) -> log.info("{} = {}", k, v));
+    public void applicationReady() {
+        customProperties.forEach((k, v) -> log.info("{} = {}", k, v));
     }
 
 }
