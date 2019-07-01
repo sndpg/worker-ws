@@ -1,7 +1,6 @@
-package common;
+package org.psc.workerws.common;
 
 import org.junit.Test;
-import org.psc.workerws.common.CommonLogic;
 
 import java.util.Map;
 
