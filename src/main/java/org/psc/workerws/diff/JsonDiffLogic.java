@@ -18,7 +18,6 @@ public class JsonDiffLogic {
         var target = objectMapper.readTree(second);
         var pathNode = JsonDiff.asJson(source, target);
 
-        return pathNode.
-    toString();
+        return pathNode.toString();
 }
 }

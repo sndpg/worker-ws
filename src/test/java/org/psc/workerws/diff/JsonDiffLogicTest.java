@@ -10,7 +10,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.io.Resource;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.not;
@@ -48,15 +51,13 @@ public class JsonDiffLogicTest {
     }
 
     private String readInputStream(InputStream inputStream) throws IOException {
-        StringBuilder stringBuilder = new StringBuilder(1000);
+        var stringBuilder = new StringBuilder(1000);
 
         try (var reader = new BufferedReader(new InputStreamReader(inputStream))) {
-
             int current = 0;
             while ((current = reader.read()) != -1) {
                 stringBuilder.append((char) current);
             }
-
         }
 
         return stringBuilder.toString();
