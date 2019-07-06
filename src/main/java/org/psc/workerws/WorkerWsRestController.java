@@ -1,5 +1,7 @@
 package org.psc.workerws;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.vavr.control.Try;
 import lombok.RequiredArgsConstructor;
 import org.psc.workerws.calculators.DefaultCalculator;
@@ -11,6 +13,7 @@ import org.psc.workerws.generators.UuidGenerator;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.*;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.request.async.DeferredResult;
 import reactor.core.publisher.Flux;
@@ -42,6 +45,10 @@ public class WorkerWsRestController {
     private final FilesLogic filesLogic;
 
     private final PersonRepository personRepository;
+
+    private final KafkaTemplate<String, String> kafkaTemplate;
+
+    private final ObjectMapper objectMapper;
 
     @GetMapping("/status")
     public ResponseEntity<String> getStatus() {
@@ -84,7 +91,8 @@ public class WorkerWsRestController {
     }
 
     @PostMapping(value = "/defaultCalculation", produces = MediaType.APPLICATION_JSON_VALUE)
-    public Map<String, BigDecimal> uselessCalculate(@RequestBody SimpleCalculatorSpecification specification) throws NoSuchAlgorithmException {
+    public Map<String, BigDecimal> uselessCalculate(
+            @RequestBody SimpleCalculatorSpecification specification) throws NoSuchAlgorithmException {
         var id = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd-hh:mm:ss.nnnnnnnnn"));
         var result = defaultCalculator.calculate(id, specification.getStartValue(), specification.getModifierValue());
         return Map.of(id, result);
@@ -112,5 +120,12 @@ public class WorkerWsRestController {
     public List<Person> getAllPersons() {
         return personRepository.getAllPersons().collect(Collectors.toList());
     }
+
+    @PostMapping(value = "/dataList", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public <T> List<T> postDataList(@RequestBody List<T> dataList) throws JsonProcessingException {
+        kafkaTemplate.send("test", objectMapper.writeValueAsString(dataList));
+        return dataList;
+    }
+
 
 }
