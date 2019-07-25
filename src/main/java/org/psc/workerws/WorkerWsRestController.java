@@ -52,7 +52,12 @@ public class WorkerWsRestController {
 
     @GetMapping("/status")
     public ResponseEntity<String> getStatus() {
-        return new ResponseEntity<>("{\"status\":\"OK_2\"}", HttpStatus.OK);
+        return new ResponseEntity<>("{\"status\":\"OK\"}", HttpStatus.OK);
+    }
+
+    @GetMapping("/token")
+    public ResponseEntity<String> getToken() {
+        return new ResponseEntity<>("{\"token\":\"in header\"}", HttpStatus.OK);
     }
 
     @GetMapping("/randomNumber")
